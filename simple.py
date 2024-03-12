@@ -12,3 +12,9 @@ user_number = float(input("Enter a number: "))
 # Calculate and print the square of the number
 square_result = user_number ** 2
 print(f"The square of {user_number} is: {square_result}")
+
+# Check if the square is an even or odd number
+if square_result % 2 == 0:
+    print(f"The square is an even number.")
+else:
+    print(f"The square is an odd number.")
