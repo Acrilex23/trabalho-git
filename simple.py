@@ -22,3 +22,5 @@ else:
 # Calculate and print the square root of the user's number
 square_root_result = user_number ** 0.5
 print(f"The square root of {user_number} is: {square_root_result}")
+
+print("Hello World")
