@@ -21,4 +21,6 @@ Diogo Cunha
 7- Fiz o git merge para evitar conflitos e unir as alterações	
 	Comando: git checkout main, git merge cu
 		 git checkout cu, git merge main
-
+8- Fiz o git rebase
+	Comando: git checkout main
+		 git rebase cu
