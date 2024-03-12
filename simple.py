@@ -18,3 +18,7 @@ if square_result % 2 == 0:
     print(f"The square is an even number.")
 else:
     print(f"The square is an odd number.")
+
+# Calculate and print the square root of the user's number
+square_root_result = user_number ** 0.5
+print(f"The square root of {user_number} is: {square_root_result}")
