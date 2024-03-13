@@ -70,76 +70,88 @@
 -    Abra o terminal e clone o repositório:
 
 ```bash
-    git clone https://github.com/Acrilex23/trabalho-git.git
-    echo "# trabalho-git" >> README.md
-    git add README.md
-    git commit -m "First commit"
-    git push
+git clone https://github.com/Acrilex23/trabalho-git.git
+echo "# trabalho-git" >> README.md
+git add README.md
+git commit -m "First commit"
+git push
 ```
 ### Explicação: 
 ```bash
     git clone https://github.com/Acrilex23/trabalho-git.git
 ```
-    
   - Neste comando, um clone do repositório trabalho-git hospedado no GitHub é criado. 
   - O URL fornecido é o endereço do repositório remoto.
 
 ```bash
-    echo "# trabalho-git" >> README.md:
+    echo "# trabalho-git" >> README.md
 ```
-    
 
   - Este comando adiciona um título ao arquivo README.md recém-criado. 
   - O echo é utilizado para imprimir o texto ("# trabalho-git") e >> é usado para redirecionar esse texto ao final do arquivo README.md.
-
-    git add README.md:
+  
+```bash
+    git add README.md
+```
 
   - Adiciona as modificações realizadas no README.md ao staging area, preparando-as para serem incluídas no próximo commit.
   - Staging area é uma área intermediária onde seleciona as alterações específicas que deseja incluir no próximo commit.
-
-    git commit -m "First commit":
+  
+```bash
+    git commit -m "First commit"
+```
 
   - Realiza o commit das alterações feitas no README.md. 
   - O argumento -m é utilizado para adicionar uma mensagem de commit diretamente na linha de comando, e "First commit" é a mensagem associada a este commit.
-
-    git push:
-
+  
+```bash
+    git push
+```
   - Envia as alterações realizadas para o repositório remoto no GitHub. 
   - Isso atualiza o branch padrão (normalmente o main ou master) com as alterações feitas localmente.
 
 ## 2. Criação de um Ficheiro Python:
 ```bash
-    touch simple.py
-    git add simple.py
-    git commit -m "Adicionado simple.py"
-    git push
+touch simple.py
+git add simple.py
+git commit -m "Adicionado simple.py"
+git push
 ```
 ### Explicação: 
 
-    **touch simple.py:**
-
+```bash
+    touch simple.py
+```
   - Este comando cria um novo arquivo chamado simple.py. 
 
-    **git add simple.py:**
+```bash
+    git add simple.py
+```
 
   - Adiciona o arquivo simple.py ao staging area. 
-
-    **git commit -m "Adicionado simple.py":**
+  
+```bash
+    git commit -m "Adicionado simple.py"
+```
 
   - Realiza um commit com uma mensagem descritiva indicando o propósito das alterações. 
   - Neste caso, o commit registra a adição do arquivo simple.py ao projeto.
-
-    **git push:**
+  
+```bash
+    git push
+```
 
   - Envia as alterações (o novo commit) para o repositório remoto no GitHub. 
 
 ## 3. Criação de um branch:
 
-`git checkout -b aro`
-
+```bash
+git checkout -b aro
+```
 ### Explicação: 
-
-    **git checkout:**
+```bash
+    git checkout
+```
 
   - Este comando é usado para alternar entre branches no repositório. 
   - Quando utilizado com a opção -b, também é capaz de criar uma nova branch.
@@ -154,26 +166,31 @@
 ```
 
 ### Explicação: 
-
-    **git checkout main:**
-
+```bash
+    git checkout main
+```
   - Muda para o branch principal, neste caso, chamado "main.".
 
-    **git merge aro:**
-   
+```bash
+    git merge aro
+```
   - Realiza um merge das alterações do branch "aro" para o branch atual (main). 
   - Durante esse processo, o Git tentará automaticamente combinar as alterações, mas podem ocorrer conflitos.
-
-    **git add simple.py:**
-   
+  
+```bash
+    git add simple.py
+```
   - Adiciona o arquivo "simple.py" ao staged area, preparando-o para o próximo commit.
 
-    **git commit -m "Resolved problems":**
-   
+```bash
+    git commit -m "Resolved problems"
+```
   - Realiza um commit para registrar as alterações e resolver os problemas (conflitos) que podem ter ocorrido durante o merge.
+  
+```bash
+    git merge aro
+```
 
-    **git merge aro:**
-   
   - Novamente, realiza um merge do branch "aro" no branch atual (main). 
   - Isso pode ser necessário se houver conflitos resolvidos durante o commit anterior ou se novas alterações foram feitas no branch "aro" após o primeiro merge.
 
@@ -188,23 +205,33 @@ git rebase aro
 
 ### Explicação:     
 
-    **git checkout aro:**
-    
+```bash
+    git checkout aro
+```
+ 
   - Este comando muda o branch atual para "aro". Todos os comandos subsequentes serão aplicados a este branch.
 
-    **git add simple.py:** 
+```bash
+    git add simple.py
+```
     
   - Adiciona as alterações feitas no arquivo "simple.py" ao índice, para o próximo commit.
 
-    **git commit -m "Added more 3 lines to the file simple.py":**
-    
+```bash
+    git commit -m "Added more 3 lines to the file simple.py"
+```
+ 
   - Cria um novo commit no branch "aro" com uma mensagem de commit.
 
-    **git checkout main:**
+```bash
+    git checkout main
+```
     
   - Retorna ao branch principal, "main".
 
-    **git rebase aro:**
+```bash
+    git rebase aro   
+```
     
   - Realiza o rebase do branch "aro" no branch atual, que é "main". 
   - Durante o rebase, o Git aplica os commits do branch "aro" sobre o branch "main", recriando cada commit  individualmente. 
@@ -223,33 +250,47 @@ git cherry-pick --continue
 
 ### Explicação: 
 
-    **git checkout aro:**
-    
+```bash
+    git checkout aro
+```
+ 
   - Altera para o branch chamado "aro".
   - Prepara-se para adicionar uma nova linha ao arquivo no contexto desse branch.
 
-    **git add simple.py:**
-    
+```bash
+    git add simple.py
+```
   - Adiciona as alterações feitas no arquivo "simple.py" ao staging area, preparando-as para o próximo commit.
 
-    **git commit -m "Added one more line to the file simple.py":**
-    
+```bash
+    git commit -m "Added one more line to the file simple.py"
+```
+
   - Realiza um commit com uma mensagem descritiva informando que uma nova linha foi adicionada ao arquivo "simple.py".
 
-    **git log:**
+```bash
+    git log
+```
     
   - Exibe o histórico de commits no branch atual ("aro"). O objetivo é obter a identificação única (hash) do commit mais recente.
 
-    **git checkout main:**
+```bash
+    git checkout main
+```
     
   - Altera para o branch principal chamado "main" para realizar o cherry-pick nesse branch.
 
-    **git cherry-pick e8a49317567ad4332406dc8af39f53341b1adf58:**
+```bash
+    git cherry-pick e8a49317567ad4332406dc8af39f53341b1adf58
+```
+
   - Aplica o commit identificado pela hash "e8a4931..." do branch "aro" ao branch atual ("main").
   - Pode ocorrer um conflito durante esse processo, e é necessário resolvê-lo manualmente antes de continuar.
   - Durante o cherry-pick, o Git pode criar marcações (<<<<<<<, =======, >>>>>>>) indicando áreas conflitantes no código. 
 
-    **git cherry-pick --continue:**
+```bash
+    git cherry-pick --continue
+```
     
   - Continua o processo de cherry-pick após a resolução manual de conflitos. Isso confirma que as alterações foram tratadas e estão prontas para serem commitadas.
 
@@ -261,14 +302,18 @@ git push --tags
 
 ### Explicação: 
 
-    **git tag -a v1.0 -m "Versão 1.0":**
+```bash
+    git tag -a v1.0 -m "Versão 1.0"
+```
     
   - Neste comando, estamos criando uma tag (etiqueta) no repositório Git. 
   - A opção -a indica que queremos criar uma tag anotada, que é uma versão mais detalhada da tag contendo informações adicionais, como o nome do autor e a data de criação. 
   - v1.0 é o nome da tag, representando a versão 1.0 do projeto. 
   - O argumento -m é utilizado para adicionar uma mensagem descritiva que geralmente contém informações sobre a versão.
 
-    **git push --tags:**
+```bash
+    git push --tags
+```
     
   - Este comando é usado para enviar (push) as tags para o repositório remoto no GitHub. 
   - As tags, assim como os branches, não são enviadas automaticamente com git push. 
