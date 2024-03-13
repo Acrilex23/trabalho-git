@@ -22,3 +22,7 @@ Diogo Cunha
 	Comando: git checkout main, git merge cu
 		 git checkout cu, git merge main
 
+8- Fiz o cherry pick 
+	Comando: git log
+		 git cherry-pick 67ee5214f1e250b6fd7d42998efc587afa0b4fdd
+		 
