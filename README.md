@@ -1,11 +1,11 @@
-#### Contéudos
+# Contéudos
 - [Objetivos](#objetivos)
 - [Repositório](#repositório)
 - [Ficheiro Python](#ficheiro-python)
 - [Branch](#branch)
 - [Merge](#merge)
 - [Rebase](#rebase)
-- [CherryPick](#cherrypick)
+- [Cherry-Pick](#cherrypick)
 - [TAG](#tag)
 
 # Objetivos:
@@ -247,7 +247,7 @@ git rebase aro
   - Durante o rebase, o Git aplica os commits do branch "aro" sobre o branch "main", recriando cada commit  individualmente. 
   - Isso resulta em uma história linear e pode ajudar a manter uma linha do tempo mais limpa.
 
-## CherryPick:
+## Cherry-Pick:
 ```bash
 git checkout aro
 git add simple.py
