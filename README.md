@@ -135,7 +135,7 @@
 
 ### Explicação: 
 
-**git checkout:**
+    **git checkout:**
 
   - Este comando é usado para alternar entre branches no repositório. 
   - Quando utilizado com a opção -b, também é capaz de criar uma nova branch.
