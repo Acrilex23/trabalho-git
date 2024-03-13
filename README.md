@@ -288,11 +288,12 @@ git cherry-pick e8a49317567ad4332406dc8af39f53341b1adf58
   - Pode ocorrer um conflito durante esse processo, e é necessário resolvê-lo manualmente antes de continuar.
   - :warning: **Warning:** Durante o cherry-pick, o Git pode criar marcações (<<<<<<<, =======, >>>>>>>) indicando áreas conflitantes no código. 
 
+:bulb: **Tip:** 
 ```bash
 git cherry-pick --continue
 ```
     
-  - :bulb: **Tip:** Continua o processo de cherry-pick após a resolução manual de conflitos. Isso confirma que as alterações foram tratadas e estão prontas para serem commitadas.
+  - Continua o processo de cherry-pick após a resolução manual de conflitos. Isso confirma que as alterações foram tratadas e estão prontas para serem commitadas.
 
 ## 7. TAG:
 ```bash
