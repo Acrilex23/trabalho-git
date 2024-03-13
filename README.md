@@ -1,4 +1,14 @@
-# Objetivos
+#### Contéudos
+-[Objetivos](# Objetivos:)
+-[Repositório](## Repositório:)
+-[Ficheiro Python](## Ficheiro Python:)
+-[Branch](## Branch:)
+-[Merge](## Merge:)
+-[Rebase](## Rebase:)
+-[CherryPick](## CherryPick:)
+-[TAG](## TAG:)
+
+# Objetivos:
 
 1. **Experiência prática com operações essenciais do Git/GitHub:**
   - Clone
@@ -61,7 +71,7 @@
 
 ## Martim Aroeira
 
-## 1. Criação do Repositório:
+## Repositório:
 
 -    No GitHub, ir para "Your repositories."
 
@@ -110,7 +120,7 @@ git push
   - Envia as alterações realizadas para o repositório remoto no GitHub. 
   - Isso atualiza o branch padrão (normalmente o main ou master) com as alterações feitas localmente.
 
-## 2. Criação de um Ficheiro Python:
+## Ficheiro Python:
 ```bash
 touch simple.py
 git add simple.py
@@ -143,7 +153,7 @@ git push
 
   - Envia as alterações (o novo commit) para o repositório remoto no GitHub. 
 
-## 3. Criação de um branch:
+## Branch:
 
 ```bash
 git checkout -b aro
@@ -156,7 +166,7 @@ git checkout
   - Este comando é usado para alternar entre branches no repositório. 
   - Quando utilizado com a opção -b, também é capaz de criar uma nova branch.
 
-## 4. Merge:
+## Merge:
 ```bash
 git checkout main
 git merge aro
@@ -194,7 +204,7 @@ git merge aro
   - Novamente, realiza um merge do branch "aro" no branch atual (main). 
   - Isso pode ser necessário se houver conflitos resolvidos durante o commit anterior ou se novas alterações foram feitas no branch "aro" após o primeiro merge.
 
-## 5. Rebase:
+## Rebase:
 ```bash
 git checkout aro
 git add simple.py
@@ -237,7 +247,7 @@ git rebase aro
   - Durante o rebase, o Git aplica os commits do branch "aro" sobre o branch "main", recriando cada commit  individualmente. 
   - Isso resulta em uma história linear e pode ajudar a manter uma linha do tempo mais limpa.
 
-## 6. CherryPick:
+## CherryPick:
 ```bash
 git checkout aro
 git add simple.py
@@ -297,7 +307,7 @@ git cherry-pick --continue
     
   - Continua o processo de cherry-pick após a resolução manual de conflitos. Isso confirma que as alterações foram tratadas e estão prontas para serem commitadas.
 
-## 7. TAG:
+## TAG:
 ```bash
 git tag -a v1.0 -m "Versão 1.0"
 git push --tags
