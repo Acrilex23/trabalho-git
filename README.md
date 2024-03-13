@@ -80,24 +80,24 @@
 
 1.  **git clone https://github.com/Acrilex23/trabalho-git.git**
     
-    -Neste comando, um clone do repositório trabalho-git hospedado no GitHub é criado. 
-    -O URL fornecido é o endereço do repositório remoto.
+    - Neste comando, um clone do repositório trabalho-git hospedado no GitHub é criado. 
+    - O URL fornecido é o endereço do repositório remoto.
 
 2.    **echo "# trabalho-git" >> README.md:**
-    -Este comando adiciona um título ao arquivo README.md recém-criado. 
-    -O echo é utilizado para imprimir o texto ("# trabalho-git") e >> é usado para redirecionar esse texto ao final do arquivo README.md.
+    - Este comando adiciona um título ao arquivo README.md recém-criado. 
+    - O echo é utilizado para imprimir o texto ("# trabalho-git") e >> é usado para redirecionar esse texto ao final do arquivo README.md.
 
 3.    **git add README.md:**
-    -Adiciona as modificações realizadas no README.md ao staging area, preparando-as para serem incluídas no próximo commit.
-    -Staging area é uma área intermediária onde seleciona as alterações específicas que deseja incluir no próximo commit.
+    - Adiciona as modificações realizadas no README.md ao staging area, preparando-as para serem incluídas no próximo commit.
+    - Staging area é uma área intermediária onde seleciona as alterações específicas que deseja incluir no próximo commit.
 
 4.    **git commit -m "First commit":**
-    -Realiza o commit das alterações feitas no README.md. 
-    -O argumento -m é utilizado para adicionar uma mensagem de commit diretamente na linha de comando, e "First commit" é a mensagem associada a este commit.
+    - Realiza o commit das alterações feitas no README.md. 
+    - O argumento -m é utilizado para adicionar uma mensagem de commit diretamente na linha de comando, e "First commit" é a mensagem associada a este commit.
 
 5.    **git push:**
-    -Envia as alterações realizadas para o repositório remoto no GitHub. 
-    -Isso atualiza o branch padrão (normalmente o main ou master) com as alterações feitas localmente.
+    - Envia as alterações realizadas para o repositório remoto no GitHub. 
+    - Isso atualiza o branch padrão (normalmente o main ou master) com as alterações feitas localmente.
 
 ## 2. Criação de um Ficheiro Python:
 ```bash
