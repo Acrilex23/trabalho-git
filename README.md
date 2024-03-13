@@ -43,31 +43,31 @@
    - Utilizar tags para marcar releases significativas do projeto.
 
 10. **Pull Requests:**
-    - Enviar contribuições ao repositório original via pull requests.
-    - Incluir descrições claras do que cada contribuição adiciona ou modifica.
+   - Enviar contribuições ao repositório original via pull requests.
+   - Incluir descrições claras do que cada contribuição adiciona ou modifica.
 
 11. **Resolução de Conflitos:**
-    - Trabalhar em conjunto para resolver conflitos manualmente ou com ferramentas do Git.
+   - Trabalhar em conjunto para resolver conflitos manualmente ou com ferramentas do Git.
 
 12. **Documentação no README.md:**
-    - Documentar o projeto final em um arquivo README.md no repositório.
-    - Todos os membros do grupo devem contribuir para o arquivo com commits.
-    - Incluir descrição do projeto, objetivos, detalhes de cada passo realizado, e reflexões sobre o processo de colaboração e aprendizagem.
+   - Documentar o projeto final em um arquivo README.md no repositório.
+   - Todos os membros do grupo devem contribuir para o arquivo com commits.
+   - Incluir descrição do projeto, objetivos, detalhes de cada passo realizado, e reflexões sobre o processo de colaboração e aprendizagem.
 
 13. **Entrega e Avaliação:**
-    - Além do código e contribuições no repositório, a avaliação será baseada na documentação no README.md.
-    - Demonstrar compreensão e aplicação das práticas do Git e GitHub.
-    - Avaliar a qualidade das contribuições e a eficácia na resolução de conflitos.
+   - Além do código e contribuições no repositório, a avaliação será baseada na documentação no README.md.
+   - Demonstrar compreensão e aplicação das práticas do Git e GitHub.
+   - Avaliar a qualidade das contribuições e a eficácia na resolução de conflitos.
 
 ## Martim Aroeira
 
 ## 1. Criação do Repositório:
-+
-    No GitHub, ir para "Your repositories."
 
-    Clique em "New" e preencha o "Repository name"
++    No GitHub, ir para "Your repositories."
 
-    Abra o terminal e clone o repositório:
++    Clique em "New" e preencha o "Repository name"
+
++    Abra o terminal e clone o repositório:
 
 ```bash
     git clone https://github.com/Acrilex23/trabalho-git.git
@@ -78,30 +78,30 @@
 ```
 ### Explicação: 
 
-1.  **git clone https://github.com/Acrilex23/trabalho-git.git**
+1. **git clone https://github.com/Acrilex23/trabalho-git.git**
     
-    - Neste comando, um clone do repositório trabalho-git hospedado no GitHub é criado. 
-    - O URL fornecido é o endereço do repositório remoto.
+   + Neste comando, um clone do repositório trabalho-git hospedado no GitHub é criado. 
+   + O URL fornecido é o endereço do repositório remoto.
 
-2.  **echo "# trabalho-git" >> README.md:**
+2. **echo "# trabalho-git" >> README.md:**
 
-    - Este comando adiciona um título ao arquivo README.md recém-criado. 
-    - O echo é utilizado para imprimir o texto ("# trabalho-git") e >> é usado para redirecionar esse texto ao final do arquivo README.md.
+   + Este comando adiciona um título ao arquivo README.md recém-criado. 
+   + O echo é utilizado para imprimir o texto ("# trabalho-git") e >> é usado para redirecionar esse texto ao final do arquivo README.md.
 
-3.  **git add README.md:**
+3. **git add README.md:**
 
-    - Adiciona as modificações realizadas no README.md ao staging area, preparando-as para serem incluídas no próximo commit.
-    - Staging area é uma área intermediária onde seleciona as alterações específicas que deseja incluir no próximo commit.
+   + Adiciona as modificações realizadas no README.md ao staging area, preparando-as para serem incluídas no próximo commit.
+   + Staging area é uma área intermediária onde seleciona as alterações específicas que deseja incluir no próximo commit.
 
-4.  **git commit -m "First commit":**
+4. **git commit -m "First commit":**
 
-    - Realiza o commit das alterações feitas no README.md. 
-    - O argumento -m é utilizado para adicionar uma mensagem de commit diretamente na linha de comando, e "First commit" é a mensagem associada a este commit.
+   + Realiza o commit das alterações feitas no README.md. 
+   + O argumento -m é utilizado para adicionar uma mensagem de commit diretamente na linha de comando, e "First commit" é a mensagem associada a este commit.
 
-5.  **git push:**
+5. **git push:**
 
-    - Envia as alterações realizadas para o repositório remoto no GitHub. 
-    - Isso atualiza o branch padrão (normalmente o main ou master) com as alterações feitas localmente.
+   + Envia as alterações realizadas para o repositório remoto no GitHub. 
+   + Isso atualiza o branch padrão (normalmente o main ou master) com as alterações feitas localmente.
 
 ## 2. Criação de um Ficheiro Python:
 ```bash
@@ -112,27 +112,33 @@
 ```
 ### Explicação: 
 
-    touch simple.py: 
-    Este comando cria um novo arquivo chamado simple.py. 
+1. **touch simple.py:**
 
-    git add simple.py: 
-    Adiciona o arquivo simple.py ao staging area. 
+  + Este comando cria um novo arquivo chamado simple.py. 
 
-    git commit -m "Adicionado simple.py":
-    Realiza um commit com uma mensagem descritiva indicando o propósito das alterações. 
-    Neste caso, o commit registra a adição do arquivo simple.py ao projeto.
+2. **git add simple.py:**
 
-    git push: 
-    Envia as alterações (o novo commit) para o repositório remoto no GitHub. 
+  + Adiciona o arquivo simple.py ao staging area. 
+
+3. **git commit -m "Adicionado simple.py":**
+
+  + Realiza um commit com uma mensagem descritiva indicando o propósito das alterações. 
+  + Neste caso, o commit registra a adição do arquivo simple.py ao projeto.
+
+4. **git push:**
+
+  + Envia as alterações (o novo commit) para o repositório remoto no GitHub. 
 
 ## 3. Criação de um branch:
 
 `git checkout -b aro`
 
 ### Explicação: 
-    git checkout: 
-    Este comando é usado para alternar entre branches no repositório. 
-    Quando utilizado com a opção -b, também é capaz de criar uma nova branch.
+
+1. **git checkout:**
+
+   + Este comando é usado para alternar entre branches no repositório. 
+   + Quando utilizado com a opção -b, também é capaz de criar uma nova branch.
 
 ## 4. Merge:
 ```bash
@@ -144,22 +150,23 @@
 ```
 ### Explicação: 
 
-    git checkout main: 
-    Muda para o branch principal, neste caso, chamado "main.".
+1. **git checkout main:**
 
-    git merge aro: 
-    Realiza um merge das alterações do branch "aro" para o branch atual (main). 
-    Durante esse processo, o Git tentará automaticamente combinar as alterações, mas podem ocorrer conflitos.
+   + Muda para o branch principal, neste caso, chamado "main.".
 
-    git add simple.py: 
-    Adiciona o arquivo "simple.py" ao staged area, preparando-o para o próximo commit.
+   **git merge aro:**
+   + Realiza um merge das alterações do branch "aro" para o branch atual (main). 
+   + Durante esse processo, o Git tentará automaticamente combinar as alterações, mas podem ocorrer conflitos.
 
-    git commit -m "Resolved problems": 
-    Realiza um commit para registrar as alterações e resolver os problemas (conflitos) que podem ter ocorrido durante o merge.
+   **git add simple.py:**
+   + Adiciona o arquivo "simple.py" ao staged area, preparando-o para o próximo commit.
 
-    git merge aro: 
-    Novamente, realiza um merge do branch "aro" no branch atual (main). 
-    Isso pode ser necessário se houver conflitos resolvidos durante o commit anterior ou se novas alterações foram feitas no branch "aro" após o primeiro merge.
+   **git commit -m "Resolved problems":**
+   + Realiza um commit para registrar as alterações e resolver os problemas (conflitos) que podem ter ocorrido durante o merge.
+
+   **git merge aro:**
+   + Novamente, realiza um merge do branch "aro" no branch atual (main). 
+   + Isso pode ser necessário se houver conflitos resolvidos durante o commit anterior ou se novas alterações foram feitas no branch "aro" após o primeiro merge.
 
 ## 5. Rebase:
 ```bash
