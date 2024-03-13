@@ -1,12 +1,12 @@
 #### Contéudos
-- [Objetivos](# Objetivos:)
-- [Repositório](## Repositório:)
-- [Ficheiro Python](## Ficheiro Python:)
-- [Branch](## Branch:)
-- [Merge](## Merge:)
-- [Rebase](## Rebase:)
-- [CherryPick](## CherryPick:)
-- [TAG](## TAG:)
+- [Objetivos](#objetivos)
+- [Repositório](#repositório)
+- [Ficheiro Python](#ficheiro-python)
+- [Branch](#branch)
+- [Merge](#merge)
+- [Rebase](#rebase)
+- [CherryPick](#cherrypick)
+- [TAG](#tag)
 
 # Objetivos:
 
