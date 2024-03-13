@@ -286,9 +286,10 @@ git cherry-pick e8a49317567ad4332406dc8af39f53341b1adf58
 
   - Aplica o commit identificado pela hash "e8a4931..." do branch "aro" ao branch atual ("main").
   - Pode ocorrer um conflito durante esse processo, e é necessário resolvê-lo manualmente antes de continuar.
-  - :warning: **Warning:** Durante o cherry-pick, o Git pode criar marcações (<<<<<<<, =======, >>>>>>>) indicando áreas conflitantes no código. 
+:warning: **Warning** 
+  - Durante o cherry-pick, o Git pode criar marcações (<<<<<<<, =======, >>>>>>>) indicando áreas conflitantes no código. 
 
-:bulb: **Tip:** 
+:bulb: **Tip** 
 ```bash
 git cherry-pick --continue
 ```
@@ -319,6 +320,7 @@ git push --tags
   - Este comando é usado para enviar (push) as tags para o repositório remoto no GitHub. 
   - As tags, assim como os branches, não são enviadas automaticamente com git push. 
   - Portanto, é necessário especificar --tags para garantir que as tags também sejam enviadas para o repositório remoto.
+:memo: **Note**
   - Resumindo, esses dois comandos são usados para criar uma tag anotada chamada v1.0 e enviá-la para o repositório remoto, marcando uma versão específica do projeto. 
   - Essas tags são frequentemente usadas para marcar releases significativas ou pontos de referência no histórico do projeto.
 
