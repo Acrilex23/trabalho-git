@@ -148,6 +148,7 @@
     git commit -m "Resolved problems"
     git merge aro
 ```
+
 ### Explicação: 
 
     **git checkout main:**
@@ -253,6 +254,7 @@ git cherry-pick --continue
 git tag -a v1.0 -m "Versão 1.0"
 git push --tags
 ```
+
 ### Explicação: 
 
     **git tag -a v1.0 -m "Versão 1.0":**
