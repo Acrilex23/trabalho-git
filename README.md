@@ -78,7 +78,7 @@
 ```
 ### Explicação: 
 
-    `git clone https://github.com/Acrilex23/trabalho-git.git`
+    git clone https://github.com/Acrilex23/trabalho-git.git
     
   - Neste comando, um clone do repositório trabalho-git hospedado no GitHub é criado. 
   - O URL fornecido é o endereço do repositório remoto.
