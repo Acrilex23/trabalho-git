@@ -1,7 +1,5 @@
 # Objetivos
 
-Este exercício é projetado para proporcionar uma experiência prática com as operações essenciais do Git e GitHub. Os principais objetivos incluem:
-
 1. **Experiência prática com operações essenciais do Git/GitHub:**
    - Clone
    - Branch
@@ -82,8 +80,8 @@ Este exercício é projetado para proporcionar uma experiência prática com as 
 ### Explicação: 
 
     `git clone https://github.com/Acrilex23/trabalho-git.git`
-        Neste comando, um clone do repositório trabalho-git hospedado no GitHub é criado. 
-        O URL fornecido é o endereço do repositório remoto.
+     Neste comando, um clone do repositório trabalho-git hospedado no GitHub é criado. 
+     O URL fornecido é o endereço do repositório remoto.
 
     echo "# trabalho-git" >> README.md:
         Este comando adiciona um título ao arquivo README.md recém-criado. 
