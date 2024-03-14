@@ -1,8 +1,8 @@
 # Contéudos
 - [Objetivos](#Objetivos)
-- [Martim Aroeira](#MartimAroeira)
-- [Diogo Cunha](#DiogoCunha)
-- [Emanuel Oliveira](#EmanuelOliveira)
+- [Martim Aroeira](#Martim-Aroeira)
+- [Diogo Cunha](#Diogo-Cunha)
+- [Emanuel Oliveira](#Emanuel-Oliveira)
 
 # Objetivos:
 
