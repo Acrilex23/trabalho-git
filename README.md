@@ -35,3 +35,4 @@ Diogo Cunha
 	Comando: git tag -a v1.0 -m "Version 1.0"
 		 git push  --tags  
 			
+
