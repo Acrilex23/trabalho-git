@@ -6,6 +6,16 @@ user_name = input("Enter your name: ")
 # Greet the user
 print(f"Hello, {user_name}! Welcome to the world of Python scripting.")
 
+
+# Print Hello From cu
+print("Hello do cu")
+
+# Print Hello From Zona
+print("I'm going to steal from you")
+
+# Print
+print("Hello")
+
 # Prompt the user for a number
 user_number = float(input("Enter a number: "))
 
@@ -28,6 +38,7 @@ print("Hello Python")
 
 
 print("Hello Cunha")
+
 
 
 
