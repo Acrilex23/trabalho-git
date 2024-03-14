@@ -340,7 +340,7 @@ git push --tags
   - Resumindo, esses dois comandos são usados para criar uma tag anotada chamada v1.0 e enviá-la para o repositório remoto, marcando uma versão específica do projeto. 
   - Essas tags são frequentemente usadas para marcar releases significativas ou pontos de referência no histórico do projeto.
 
-#Diogo Cunha
+#	Diogo Cunha
 
 1. **Git Clone do Repositório**: 
 	- Git clone https://github.com/Acrilex23/trabalho-git.git
@@ -378,3 +378,63 @@ git push --tags
 6. **TAG**:
 	-Git tag -a v1.0 -m "Version 1.0"
 	-Git push --tags
+
+
+# Emanuel Oliveira
+
+## 1. Git Clone do Repositório:
+
+```bash
+git clone https://github.com/Acrilex23/trabalho-git.git
+echo "# trabalho-git" >> README.md
+git add README.md
+git commit -m "First commit"
+git push
+```
+
+## 2. Criação da branch:
+
+```bash
+git checkout -b oli
+git add simple.py
+git commit -m "Added one more line to the file simple.py"
+```
+
+## 3. Merge:
+
+```bash
+git checkout main
+git merge oli
+```
+
+## 4. Rebase:
+
+```bash
+git checkout oli
+git add simple.py
+git commit -m "Added one more line on file simple.py"
+git checkout main
+git rebase oli
+```
+
+## 5. Cherry-pick:
+
+```bash
+git checkout oli
+git add simple.py
+# Eliminar erros no simple.py
+git commit -m "Resolved Problems"
+git log
+git checkout main
+git cherry-pick 9f9d6f924ac8cbf76f2549ddf48eae39307c8647
+git add simple.py
+git commit -m "Added one more line to the file simple.py"
+git cherry-pick --continue
+```
+
+## 6. Tag:
+
+```bash
+git tag -a v1.1 -m "Versão 1.1"
+git push --tags
+```
