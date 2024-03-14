@@ -59,18 +59,18 @@
   - Demonstrar compreensão e aplicação das práticas do Git e GitHub.
   - Avaliar a qualidade das contribuições e a eficácia na resolução de conflitos.
 
-## Martim Aroeira
+# Martim Aroeira
 
 # Contéudos
-- [Repositório](#repositório)
-- [Ficheiro Python](#ficheiro-python)
+- [Repository](#repository)
+- [Python File](#Python-File)
 - [Branch](#branch)
 - [Merge](#merge)
 - [Rebase](#rebase)
 - [Cherry-Pick](#cherrypick)
 - [TAG](#tag)
 
-## Repositório:
+## Repository:
 
 -    No GitHub, ir para "Your repositories."
 
@@ -119,7 +119,7 @@ git push
   - Envia as alterações realizadas para o repositório remoto no GitHub. 
   - Isso atualiza o branch padrão (normalmente o main ou master) com as alterações feitas localmente.
 
-## Ficheiro Python:
+## Python File:
 ```bash
 touch simple.py
 git add simple.py
