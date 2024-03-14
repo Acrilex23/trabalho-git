@@ -1,6 +1,12 @@
+# Contéudos
+- [Objetivos](#Objetivos)
+- [Martim Aroeira](#Martim Aroeira)
+- [Diogo Cunha](##Diogo Cunha)
+- [Emanuel Oliveira](##Emanuel Oliveira)
+
 # Objetivos:
 
-1. **Experiência prática com operações essenciais do Git/GitHub:**
+**1. Experiência prática com operações essenciais do Git/GitHub:**
   - Clone
   - Branch
   - Commit
@@ -12,44 +18,44 @@
   - Pull requests
   - Resolução de conflitos
 
-2. **Colaboração em grupo:**
+**2. Colaboração em grupo:**
   - Colaborar em um projeto real que requer aplicação das técnicas mencionadas.
 
-3. **Configurações iniciais:**
+**3. Configurações iniciais:**
   - Cada participante deve ter uma conta no GitHub.
   - Git deve estar instalado localmente.
 
-4. **Criação ou seleção de um repositório:**
+**4. Criação ou seleção de um repositório:**
   - Opção A: Criar um novo repositório no GitHub.
   - Opção B: Escolher um repositório público existente que aceite contribuições via pull requests.
 
-5. **Clone local:**
+**5. Clone local:**
   - Cada membro deve clonar o repositório escolhido para sua máquina local.
   - Atualizar o clone local com `git pull` sempre que houver modificações no servidor remoto.
 
-6. **Distribuição de tarefas:**
+**6. Distribuição de tarefas:**
   - Dividir tarefas entre os membros do grupo.
   - Garantir que todos tenham contribuições claras, como adicionar funcionalidades, corrigir bugs ou melhorar a documentação.
 
-7. **Utilização de Branches e Commits:**
+**7. Utilização de Branches e Commits:**
   - Criar branches para trabalhar nas tarefas designadas.
   - Fazer commits com mensagens claras e descritivas.
 
-8. **Merges, Rebase, e Cherry-Picks:**
+**8. Merges, Rebase, e Cherry-Picks:**
   - Decidir como integrar as contribuições ao branch principal.
   - Utilizar merges diretos, rebase para uma história linear ou cherry-picks para commits específicos.
 
-9. **Tags:**
+**9. Tags:**
   - Utilizar tags para marcar releases significativas do projeto.
 
-10. **Pull Requests:**
+**10. Pull Requests:**
   - Enviar contribuições ao repositório original via pull requests.
   - Incluir descrições claras do que cada contribuição adiciona ou modifica.
 
-11. **Resolução de Conflitos:**
+**11. Resolução de Conflitos:**
   - Trabalhar em conjunto para resolver conflitos manualmente ou com ferramentas do Git.
 
-12. **Documentação no README.md:**
+**12. Documentação no README.md:**
   - Documentar o projeto final em um arquivo README.md no repositório.
   - Todos os membros do grupo devem contribuir para o arquivo com commits.
   - Incluir descrição do projeto, objetivos, detalhes de cada passo realizado, e reflexões sobre o processo de colaboração e aprendizagem.
@@ -59,7 +65,7 @@
   - Demonstrar compreensão e aplicação das práticas do Git e GitHub.
   - Avaliar a qualidade das contribuições e a eficácia na resolução de conflitos.
 
-# Martim Aroeira
+#Martim Aroeira
 
 # Contéudos
 - [Repository](#repository)
@@ -339,7 +345,7 @@ git push --tags
   - Resumindo, esses dois comandos são usados para criar uma tag anotada chamada v1.0 e enviá-la para o repositório remoto, marcando uma versão específica do projeto. 
   - Essas tags são frequentemente usadas para marcar releases significativas ou pontos de referência no histórico do projeto.
 
-#	Diogo Cunha
+#Diogo Cunha
 
 ## 1. Git Clone do Repositório:
 ```bash 
@@ -384,15 +390,11 @@ git tag -a v1.0 -m "Version 1.0"
 git push --tags
 ```
 
-# Emanuel Oliveira
+#Emanuel Oliveira
 
 ## 1. Git Clone do Repositório:
 ```bash
 git clone https://github.com/Acrilex23/trabalho-git.git
-echo "# trabalho-git" >> README.md
-git add README.md
-git commit -m "First commit"
-git push
 ```
 
 ## 2. Criação da branch:
