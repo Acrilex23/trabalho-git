@@ -54,7 +54,7 @@
   - Todos os membros do grupo devem contribuir para o arquivo com commits.
   - Incluir descrição do projeto, objetivos, detalhes de cada passo realizado, e reflexões sobre o processo de colaboração e aprendizagem.
 
-13. **Entrega e Avaliação:**
+**13. Entrega e Avaliação:**
   - Além do código e contribuições no repositório, a avaliação será baseada na documentação no README.md.
   - Demonstrar compreensão e aplicação das práticas do Git e GitHub.
   - Avaliar a qualidade das contribuições e a eficácia na resolução de conflitos.
