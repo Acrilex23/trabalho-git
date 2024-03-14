@@ -22,7 +22,16 @@ Diogo Cunha
 	Comando: git checkout main, git merge cu
 		 git checkout cu, git merge main
 
-8- Fiz o cherry pick 
+8- Fiz o rebase 
+	Comando: git rebase cu
+		 git checkout main
+		 git rebase main
+
+9- Fiz o cherry pick 
 	Comando: git log
-		 git cherry-pick 67ee5214f1e250b6fd7d42998efc587afa0b4fdd
-		 
+		 git cherry-pick 67ee5214f1e250b6fd7d42998efc587afa0b4fdd		 
+
+10- Fiz o TAG 
+	Comando: git tag -a v1.0 -m "Version 1.0"
+		 git push  --tags  
+			
