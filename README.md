@@ -1,4 +1,4 @@
-# Contéudos
+# Índice
 - [Objetivos](#Objetivos)
 - [Martim Aroeira](#Martim-Aroeira)
 - [Diogo Cunha](#Diogo-Cunha)
