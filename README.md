@@ -1,13 +1,3 @@
-# Contéudos
-- [Objetivos](#objetivos)
-- [Repositório](#repositório)
-- [Ficheiro Python](#ficheiro-python)
-- [Branch](#branch)
-- [Merge](#merge)
-- [Rebase](#rebase)
-- [Cherry-Pick](#cherrypick)
-- [TAG](#tag)
-
 # Objetivos:
 
 1. **Experiência prática com operações essenciais do Git/GitHub:**
@@ -70,6 +60,15 @@
   - Avaliar a qualidade das contribuições e a eficácia na resolução de conflitos.
 
 ## Martim Aroeira
+
+# Contéudos
+- [Repositório](#repositório)
+- [Ficheiro Python](#ficheiro-python)
+- [Branch](#branch)
+- [Merge](#merge)
+- [Rebase](#rebase)
+- [Cherry-Pick](#cherrypick)
+- [TAG](#tag)
 
 ## Repositório:
 
