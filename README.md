@@ -341,12 +341,12 @@ git push --tags
 
 #	Diogo Cunha
 
-##1. Git Clone do Repositório:
+## 1. Git Clone do Repositório:
 ```bash 
 git clone https://github.com/Acrilex23/trabalho-git.git
 ```
 
-##2. New Branch:
+## 2. New Branch:
 
 ```bash
 git checkout -b cu
@@ -356,7 +356,7 @@ git commit -m "Added new Coding Line in simple.py"
 ```
 	
 
-##3. Merge:
+## 3. Merge:
 ```bash
 git checkout main
 git merge cu
@@ -364,20 +364,20 @@ git checkout cu
 git merge main
 ```
 
-##4. Rebase:
+## 4. Rebase:
 ```bash
 git rebase cu
 git checkout main
 git rebase main
 ```
 
-##5. Cherry-Pick:
+## 5. Cherry-Pick:
 ```bash
 git log
 git cherry-pick 67ee5214f1e250b6fd7d42998efc587afa0b4fdd
 ```
 
-##6. TAG:
+## 6. TAG:
 
 ```bash
 git tag -a v1.0 -m "Version 1.0"
@@ -386,7 +386,7 @@ git push --tags
 
 # Emanuel Oliveira
 
-##1. Git Clone do Repositório:
+## 1. Git Clone do Repositório:
 ```bash
 git clone https://github.com/Acrilex23/trabalho-git.git
 echo "# trabalho-git" >> README.md
@@ -395,7 +395,7 @@ git commit -m "First commit"
 git push
 ```
 
-##2. Criação da branch:
+## 2. Criação da branch:
 
 ```bash
 git checkout -b oli
@@ -403,14 +403,14 @@ git add simple.py
 git commit -m "Added one more line to the file simple.py"
 ```
 
-##3. Merge:
+## 3. Merge:
 
 ```bash
 git checkout main
 git merge oli
 ```
 
-##4. Rebase:
+## 4. Rebase:
 
 ```bash
 git checkout oli
@@ -420,7 +420,7 @@ git checkout main
 git rebase oli
 ```
 
-##5. Cherry-pick:
+## 5. Cherry-pick:
 
 ```bash
 git checkout oli
@@ -435,7 +435,7 @@ git commit -m "Added one more line to the file simple.py"
 git cherry-pick --continue
 ```
 
-##6. TAG:
+## 6. TAG:
 
 ```bash
 git tag -a v1.1 -m "Versão 1.1"
