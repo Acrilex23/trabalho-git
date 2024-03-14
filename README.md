@@ -65,7 +65,7 @@
   - Demonstrar compreensão e aplicação das práticas do Git e GitHub.
   - Avaliar a qualidade das contribuições e a eficácia na resolução de conflitos.
 
-#Martim Aroeira
+# Martim Aroeira
 
 # Contéudos
 - [Repository](#repository)
@@ -345,7 +345,7 @@ git push --tags
   - Resumindo, esses dois comandos são usados para criar uma tag anotada chamada v1.0 e enviá-la para o repositório remoto, marcando uma versão específica do projeto. 
   - Essas tags são frequentemente usadas para marcar releases significativas ou pontos de referência no histórico do projeto.
 
-#Diogo Cunha
+# Diogo Cunha
 
 ## 1. Git Clone do Repositório:
 ```bash 
@@ -390,7 +390,7 @@ git tag -a v1.0 -m "Version 1.0"
 git push --tags
 ```
 
-#Emanuel Oliveira
+# Emanuel Oliveira
 
 ## 1. Git Clone do Repositório:
 ```bash
