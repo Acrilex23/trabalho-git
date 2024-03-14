@@ -184,6 +184,7 @@ git checkout main
 git merge aro
 ```
   - Realiza um merge das alterações do branch "aro" para o branch atual (main). 
+:warning: **Warning**
   - Durante esse processo, o Git tentará automaticamente combinar as alterações, mas podem ocorrer conflitos.
   
 ```bash
@@ -201,6 +202,7 @@ git merge aro
 ```
 
   - Novamente, realiza um merge do branch "aro" no branch atual (main). 
+:memo: **Note**
   - Isso pode ser necessário se houver conflitos resolvidos durante o commit anterior ou se novas alterações foram feitas no branch "aro" após o primeiro merge.
 
 ## Rebase:
