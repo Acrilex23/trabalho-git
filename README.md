@@ -75,6 +75,7 @@
 - [Rebase](#rebase)
 - [Cherry-Pick](#cherrypick)
 - [TAG](#tag)
+- [Git Log](#git-log)
 
 ## Repository:
 
@@ -344,7 +345,8 @@ git push --tags
 :memo: **Note**
   - Resumindo, esses dois comandos são usados para criar uma tag anotada chamada v1.0 e enviá-la para o repositório remoto, marcando uma versão específica do projeto. 
   - Essas tags são frequentemente usadas para marcar releases significativas ou pontos de referência no histórico do projeto.
-
+    
+## Git Log:
 ![gitlog](/imgs/git_log_aroeira.jpeg)
 
 # Diogo Cunha
@@ -396,6 +398,9 @@ git tag -a v1.0 -m "Version 1.0"
 git push --tags
 ```
 - Cria uma nova tag chamada "v1.0" com a mensagem "Version 1.0" e envia todas as tags locais para o repositório remoto.
+
+## 7. Git Log:
+![gitlog](/imgs/git_log_cunha.jpeg)
 
 # Emanuel Oliveira
 
@@ -466,3 +471,6 @@ git push --tags
 ```
 - Cria uma nova tag chamada "v1.1" com uma mensagem.
 - Envia todas as tags locais para o repositório remoto.
+
+## 7. Git Log:
+![gitlog](/imgs/git_log_oliveira.jpeg)
