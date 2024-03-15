@@ -351,6 +351,7 @@ git push --tags
 ```bash 
 git clone https://github.com/Acrilex23/trabalho-git.git
 ```
+- Clona o repositório remoto para o seu ambiente local.
 
 ## 2. New Branch:
 
@@ -360,7 +361,7 @@ nano simple.py
 git add .
 git commit -m "Added new Coding Line in simple.py"
 ```
-	
+- Cria e muda para um novo branch, faz alterações, adiciona e realiza um commit nesse branch.	
 
 ## 3. Merge:
 ```bash
@@ -369,6 +370,7 @@ git merge cu
 git checkout cu
 git merge main
 ```
+-Combina as alterações de um branch em outro.
 
 ## 4. Rebase:
 ```bash
@@ -376,12 +378,14 @@ git rebase cu
 git checkout main
 git rebase main
 ```
+- Reorganiza os commits em um branch para aplicá-los em cima de outro branch.
 
 ## 5. Cherry-Pick:
 ```bash
 git log
 git cherry-pick 67ee5214f1e250b6fd7d42998efc587afa0b4fdd
 ```
+- Aplica um commit específico em outro branch.
 
 ## 6. TAG:
 
@@ -389,6 +393,7 @@ git cherry-pick 67ee5214f1e250b6fd7d42998efc587afa0b4fdd
 git tag -a v1.0 -m "Version 1.0"
 git push --tags
 ```
+- Cria uma tag para marcar um ponto específico no histórico do repositório e envia as tags para o repositório remoto.
 
 # Emanuel Oliveira
 
