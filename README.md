@@ -345,6 +345,8 @@ git push --tags
   - Resumindo, esses dois comandos são usados para criar uma tag anotada chamada v1.0 e enviá-la para o repositório remoto, marcando uma versão específica do projeto. 
   - Essas tags são frequentemente usadas para marcar releases significativas ou pontos de referência no histórico do projeto.
 
+![gitlog](/imgs/git_log_aroeira.jpeg)
+
 # Diogo Cunha
 
 ## 1. Git Clone do Repositório:
