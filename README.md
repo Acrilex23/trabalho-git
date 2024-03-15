@@ -351,7 +351,7 @@ git push --tags
 ```bash 
 git clone https://github.com/Acrilex23/trabalho-git.git
 ```
-- Clona o repositório remoto para o seu ambiente local.
+- Clona o repositório remoto "trabalho-git" para o seu ambiente local.
 
 ## 2. New Branch:
 
@@ -361,7 +361,7 @@ nano simple.py
 git add .
 git commit -m "Added new Coding Line in simple.py"
 ```
-- Cria e muda para um novo branch, faz alterações, adiciona e realiza um commit nesse branch.	
+- Cria uma nova branch chamada "cu", edita o arquivo "simple.py", adiciona as mudanças ao próximo commit e realiza um commit com uma mensagem descritiva.
 
 ## 3. Merge:
 ```bash
@@ -370,7 +370,7 @@ git merge cu
 git checkout cu
 git merge main
 ```
--Combina as alterações de um branch em outro.
+- Muda para o branch "main", incorpora as mudanças do branch "cu" nele e, em seguida, volta para o branch "cu" e incorpora as mudanças do branch "main" nele.
 
 ## 4. Rebase:
 ```bash
@@ -378,14 +378,14 @@ git rebase cu
 git checkout main
 git rebase main
 ```
-- Reorganiza os commits em um branch para aplicá-los em cima de outro branch.
+- Reorganiza os commits do branch atual em relação ao branch "cu" e depois em relação ao branch "main".
 
 ## 5. Cherry-Pick:
 ```bash
 git log
 git cherry-pick 67ee5214f1e250b6fd7d42998efc587afa0b4fdd
 ```
-- Aplica um commit específico em outro branch.
+- Mostra o histórico de commits e aplica o commit específico identificado pelo hash "67ee5214f1e250b6fd7d42998efc587afa0b4fdd".
 
 ## 6. TAG:
 
@@ -393,7 +393,7 @@ git cherry-pick 67ee5214f1e250b6fd7d42998efc587afa0b4fdd
 git tag -a v1.0 -m "Version 1.0"
 git push --tags
 ```
-- Cria uma tag para marcar um ponto específico no histórico do repositório e envia as tags para o repositório remoto.
+- Cria uma nova tag chamada "v1.0" com a mensagem "Version 1.0" e envia todas as tags locais para o repositório remoto.
 
 # Emanuel Oliveira
 
@@ -401,6 +401,7 @@ git push --tags
 ```bash
 git clone https://github.com/Acrilex23/trabalho-git.git
 ```
+- Clona o repositório remoto para o seu ambiente local.
 
 ## 2. Criação da branch:
 
@@ -409,6 +410,8 @@ git checkout -b oli
 git add simple.py
 git commit -m "Added one more line to the file simple.py"
 ```
+- Cria e muda para um novo branch chamado "oli".
+- Adiciona mudanças no arquivo "simple.py" e realiza um commit.
 
 ## 3. Merge:
 
@@ -416,6 +419,8 @@ git commit -m "Added one more line to the file simple.py"
 git checkout main
 git merge oli
 ```
+- Muda para o branch "main".
+- Incorpora as alterações do branch "oli" para o branch "main".
 
 ## 4. Rebase:
 
@@ -426,6 +431,10 @@ git commit -m "Added one more line on file simple.py"
 git checkout main
 git rebase oli
 ```
+- Muda para o branch "oli".
+- Adiciona mais mudanças em "simple.py" e faz um commit.
+- Muda para o branch "main".
+- Reorganiza os commits do branch "main" em relação ao branch "oli".
 
 ## 5. Cherry-pick:
 
@@ -441,6 +450,11 @@ git add simple.py
 git commit -m "Added one more line to the file simple.py"
 git cherry-pick --continue
 ```
+- Muda para o branch "oli".
+- Resolve problemas em "simple.py" e faz um commit.
+- Muda para o branch "main".
+- Aplica um commit específico do branch "oli" no branch "main".
+- Continua o processo de cherry-pick se houver conflitos.
 
 ## 6. TAG:
 
@@ -448,3 +462,5 @@ git cherry-pick --continue
 git tag -a v1.1 -m "Versão 1.1"
 git push --tags
 ```
+- Cria uma nova tag chamada "v1.1" com uma mensagem.
+- Envia todas as tags locais para o repositório remoto.
